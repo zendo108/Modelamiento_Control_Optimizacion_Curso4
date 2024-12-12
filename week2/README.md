@@ -28,13 +28,10 @@ This lecture focuses on developing and understanding mathematical models for non
 ## System of ODEs
 The derived equations describe:
 
-$$ h(x,y) = x^2+y^2 -1 = 0 $$
-
-$$ \\mathcal{L}(x,y,\\lambda) =  xy^2 + \\lambda (x^2+y^2 -1)$$
-
 1. **Temperature Dynamics**:
 
 $$ \frac{dT}{dt} = \frac{AU}{\rho V \bar{c}_P} \Delta T + \frac{F_i}{V} \bar{c}_P (T_i - T) - \frac{r \Delta h_R}{\rho \bar{c}_P} $$
+
 3. **Concentration Dynamics**:
 
 $$ \frac{dC_A}{dt} = \frac{F_i}{V} (C_{Ai} - C_A) - k_A e^{-\frac{E}{RT}} C_A^n $$
