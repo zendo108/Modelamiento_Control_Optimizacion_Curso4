@@ -49,7 +49,7 @@ These equations form the foundation for reactor design, control, and optimizatio
 
 ## Repository Structure
 ```
-week2/
+week-2-dayofweek(can be multiple days)/
 │
 ├── README.md          # Lecture notes and overview of Week 2 content
 ├── slides/            # Lecture slides (if applicable)
