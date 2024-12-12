@@ -26,10 +26,10 @@ This repository contains materials for the course "Modeling, Control, and Optimi
 ```
 ├── README.md
 ├── lectures/
-│   ├── week1/
-│   ├── week2/
-│   ├── week3/
-│   └── week4/
+│   ├── week-1-dayofweek(can be multiple days)/
+│   ├── week-2-dayofweek/
+│   ├── week-3-dayofweek/
+│   └── week-4-dayofweek/
 ├── assignments/
 ├── projects/
 └── resources/
