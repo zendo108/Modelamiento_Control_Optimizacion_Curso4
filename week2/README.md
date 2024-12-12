@@ -2,7 +2,7 @@
 # Week 2: Non-Isothermal Reactor Modeling - Lecture Notes
 
 This folder contains the lecture notes, equations, and concepts covered in the **Week 2 Monday Lecture** of the Modeling, Control, and Process Engineering course.
-
+$$ \\mathcal{L}(x,y,\\lambda) =  xy^2 + \\lambda (x^2+y^2 -1)$$"
 ## Overview
 This lecture focuses on developing and understanding mathematical models for non-isothermal chemical reactors. It introduces balance equations for mass and energy and derives a system of ordinary differential equations (ODEs) to represent reactor behavior. The topics are applicable to both industrial and academic settings in process modeling and control.
 
