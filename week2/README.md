@@ -3,10 +3,6 @@
 
 This folder contains the lecture notes, equations, and concepts covered in the **Week 2 Monday Lecture** of the Modeling, Control, and Process Engineering course.
 
-$$ h(x,y) = x^2+y^2 -1 = 0 $$
-
-$$ \\mathcal{L}(x,y,\\lambda) =  xy^2 + \\lambda (x^2+y^2 -1)$$
-
 ## Overview
 This lecture focuses on developing and understanding mathematical models for non-isothermal chemical reactors. It introduces balance equations for mass and energy and derives a system of ordinary differential equations (ODEs) to represent reactor behavior. The topics are applicable to both industrial and academic settings in process modeling and control.
 
@@ -31,16 +27,17 @@ This lecture focuses on developing and understanding mathematical models for non
 
 ## System of ODEs
 The derived equations describe:
+
+$$ h(x,y) = x^2+y^2 -1 = 0 $$
+
+$$ \\mathcal{L}(x,y,\\lambda) =  xy^2 + \\lambda (x^2+y^2 -1)$$
+
 1. **Temperature Dynamics**:
 
-   \[
-   \frac{dT}{dt} = \frac{AU}{\rho V \bar{c}_P} \Delta T + \frac{F_i}{V} \bar{c}_P (T_i - T) - \frac{r \Delta h_R}{\rho \bar{c}_P}
-   \]
+$$ \frac{dT}{dt} = \frac{AU}{\rho V \bar{c}_P} \Delta T + \frac{F_i}{V} \bar{c}_P (T_i - T) - \frac{r \Delta h_R}{\rho \bar{c}_P} $$
 3. **Concentration Dynamics**:
 
-   \[
-   \frac{dC_A}{dt} = \frac{F_i}{V} (C_{Ai} - C_A) - k_A e^{-\frac{E}{RT}} C_A^n
-   \]
+$$ \frac{dC_A}{dt} = \frac{F_i}{V} (C_{Ai} - C_A) - k_A e^{-\frac{E}{RT}} C_A^n $$
 
 These equations form the foundation for reactor design, control, and optimization tasks.
 
