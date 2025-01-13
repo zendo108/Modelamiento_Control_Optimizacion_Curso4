@@ -1,6 +1,3 @@
-Here is the detailed `README.md` content for your Python project:
-
-```markdown
 # Taller Computacional: Bioreactor ODE Simulation and Multi-Objective Optimization
 
 This project implements a simulation and optimization framework for modeling the operation of a fed-batch bioreactor. It involves solving Ordinary Differential Equations (ODEs) using numerical methods, performing single-objective and multi-objective optimization, and visualizing results.
@@ -133,8 +130,3 @@ This project is based on a computational lab for simulating and optimizing fed-b
 - [SciPy Documentation](https://docs.scipy.org/)
 - [Matplotlib Documentation](https://matplotlib.org/)
 - [pymoo Documentation](https://pymoo.org/)
-```
-
----
-
-This README provides detailed instructions and descriptions for all sections of the project. Let me know if you'd like to adjust or add anything!
